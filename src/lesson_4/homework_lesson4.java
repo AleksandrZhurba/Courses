@@ -31,6 +31,9 @@ public class homework_lesson4 {
         meth1.temparr(arr3);
         arrpr(arr3);
 
+        meth1.averageNumb(arr3);
+
+//        meth1.minEL(arr3);
 
     }
 }
