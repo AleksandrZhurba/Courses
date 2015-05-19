@@ -3,12 +3,6 @@ package lesson_4;
 import java.util.Arrays;
 
 public class homework_lesson4 {
-    static void arrpr (int[] arr) {
-        for (int i = 0; i < arr.length; i++){
-            System.out.print(arr[i] + ", ");
-        }
-        System.out.println();
-    }
 
     public static void main (String[] args) {
 
@@ -25,12 +19,12 @@ public class homework_lesson4 {
         Methods meth1 = new Methods();
 
         meth1.invertMethod1(inv1);
-        arrpr(inv1);
+        System.out.println(Arrays.toString(inv1));
 
         meth1.invertMethod2(inv2);
 
         meth1.invertMethod3(inv3);
-        arrpr(inv3);
+        System.out.println(Arrays.toString(inv3));
 
         meth1.averageNumb(inv2);
 
