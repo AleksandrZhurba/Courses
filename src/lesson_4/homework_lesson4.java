@@ -16,7 +16,7 @@ public class homework_lesson4 {
         int[] inv3 = {5,3,5,2,1};
         int[] arr5 = {-2,4,3,4,5,-2,1};
 
-        Methods meth1 = new Methods();
+        Meth meth1 = new Meth();
 
         meth1.invertMethod1(inv1);
         System.out.println(Arrays.toString(inv1));

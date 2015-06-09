@@ -62,5 +62,6 @@ public class Meth {
     }
     public void invertMinMax (int[] arr) {
 
+
     }
 }

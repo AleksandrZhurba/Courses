@@ -7,6 +7,5 @@ public class StringMain {
 
         str.findWord(omg);
 
-        
     }
 }
