@@ -22,10 +22,10 @@ public class Office {
         List<Emploer> result = new LinkedList<Emploer>();
 
         for (Emploer empl: emploers){
-            int salary = empl.getSalary();
-            if(salary > from && salary < to) {
-                result.add(empl);
-            }
+                int salary = empl.getSalary();
+                if(salary > from && salary < to) {
+                    result.add(empl);
+                }
         }
 
         return result;

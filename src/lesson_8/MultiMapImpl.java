@@ -34,7 +34,12 @@ public class MultiMapImpl<K,V> extends HashMap<K,V> implements MultiMap<K,V> {
 
     @Override
     public int countValues(K key) {
-        return 0;
+        if (multiMap.containsKey(key)){
+            ArrayList<V> values = multiMap.get(key);
+            return values.size();
+        }else{
+            return 0;
+        }
     }
 
 
