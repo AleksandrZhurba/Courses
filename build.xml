@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<project default="run" name="Easy IT">
+    <target name="run" depends="compile">
+    </target>
+    <target name="compile">
+        <javac srcdir="./src/lesson_10.ThreadHW" destdir="staging" />
+    </target>
+</project>
